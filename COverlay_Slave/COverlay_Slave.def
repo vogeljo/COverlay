@@ -1,0 +1,4 @@
+LIBRARY
+EXPORTS
+	COverlay_LowLevelKeyboardProc	@1
+	COverlay_Initialize				@2
