@@ -142,10 +142,10 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 		errcode = COVERLAY_ERROR_HOOK_FAILED;
 	}
 
-	if (errcode) {
-		system("PAUSE");
+	if (errcode)
 		return -errcode;
-	}
+	
+	// Initialization successful
 
 	MSG msg;
 	while (GetMessage(&msg, NULL, NULL, NULL) > 0) {
