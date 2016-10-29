@@ -143,7 +143,6 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	}
 
 	if (errcode) {
-		system("PAUSE");
 		return -errcode;
 	}
 
